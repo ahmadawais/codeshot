@@ -1,5 +1,7 @@
 # HotShot Hello
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ahmadawais/codeshot.svg)](https://greenkeeper.io/)
+
 Your codeshot. 📸
 
 ## Features
