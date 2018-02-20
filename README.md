@@ -16,4 +16,3 @@ Your codeshot. 📸
 First release.
 
 **Enjoy!**
-# codeshot
