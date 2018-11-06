@@ -2,7 +2,7 @@
 	"name": "codeshot",
 	"displayName": "codeshot",
 	"description": "Your codeshot",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "ahmadawais",
 	"engines": {
 		"vscode": "^1.20.0"
