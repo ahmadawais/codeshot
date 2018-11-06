@@ -1,13 +1,6 @@
-# HotShot Hello
+# CodeShot  📸
 
-Your codeshot. 📸
-
-## Features
-
-Your codeshot. 📸
-
-
-![gif](https://i.imgur.com/7uxeLas.gif)
+Work in Progress. Your codeshot.
 
 ## Release Notes
 
