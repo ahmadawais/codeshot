@@ -1,40 +1,48 @@
 {
-  "name": "codeshot",
-  "displayName": "codeshot",
-  "description": "Your codeshot",
-  "version": "0.0.1",
-  "publisher": "ahmadawais",
-  "engines": {
-    "vscode": "^1.20.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ahmadawais/codeshot.git"
-  },
-  "categories": ["Other"],
-  "keywords": ["shot", "codeshot"],
-  "activationEvents": ["onCommand:codeshot.sayHello"],
-  "main": "./out/extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "codeshot.sayHello",
-        "title": "📸  CodeShot"
-      }
-    ]
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "npm run compile && node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "typescript": "^2.6.1",
-    "vscode": "^1.1.6",
-    "tslint": "^5.8.0",
-    "@types/node": "^7.0.43",
-    "@types/mocha": "^2.2.42"
-  }
+	"name": "codeshot",
+	"displayName": "codeshot",
+	"description": "Your codeshot",
+	"version": "0.0.1",
+	"publisher": "ahmadawais",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadawais/codeshot.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"shot",
+		"codeshot"
+	],
+	"activationEvents": [
+		"onCommand:codeshot.sayHello"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "codeshot.sayHello",
+				"title": "📸  CodeShot"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^10.12.2",
+		"tslint": "^5.11.0",
+		"typescript": "^3.1.6",
+		"vscode": "^1.1.21"
+	},
+	"scripts": {
+		"release": "npx vsce publish",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	}
 }
