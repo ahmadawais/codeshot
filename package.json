@@ -21,6 +21,7 @@
 	"activationEvents": [
 		"onCommand:codeshot.sayHello"
 	],
+	"icon": "icon.png",
 	"main": "./out/extension",
 	"contributes": {
 		"commands": [
