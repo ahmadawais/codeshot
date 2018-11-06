@@ -7,7 +7,12 @@
   "engines": {
     "vscode": "^1.20.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadawais/codeshot.git"
+  },
   "categories": ["Other"],
+  "keywords": ["shot", "codeshot"],
   "activationEvents": ["onCommand:codeshot.sayHello"],
   "main": "./out/extension",
   "contributes": {
