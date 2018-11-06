@@ -2,10 +2,4 @@
 
 Work in Progress. Your codeshot.
 
-## Release Notes
-
-### 0.0.1
-
-First release.
-
-**Enjoy!**
+![Codeshot](https://on.ahmda.ws/fa7c3c/c)
